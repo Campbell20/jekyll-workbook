@@ -1,0 +1,187 @@
+/* CSS Styles are defined below */
+
+
+h1 {
+    color: black;
+    font-weight: lighter;
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+a {
+    color: green;
+}
+
+/*header CSS*/
+
+.header-area {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.header-textbox {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 70%;
+    font-size: 18px;
+    color: #acaaab;
+    line-height: 200%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*content CSS*/
+
+.content-area {
+    display: flex;
+    justify-content: center;
+}
+
+.content-overallcontainer {
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+/*left content containers*/
+.content-leftsubcontainer {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    display: flex;
+    flex-flow: column;
+    max-width: 556px;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content-lefttextbox {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.content-lefttextbox img {
+    display: block;
+    border-radius: 3px;
+    width: 516px;
+}
+
+.content-leftfooterbox {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 15px 15px 0px;
+}
+
+
+/*right cotent containers*/
+.content-rightsubcontainer {
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    line-height: 200%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content-righttextcontainer {
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin: 0px 30px 30px 30px;
+}
+
+.content-righttextcontainer:last-child {
+    margin-bottom: 0px;
+}
+
+.content-righttextcontainerboxes {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.content-righttextcontainerboxes img {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 15px;
+    width: 250px;
+    height: 140px;
+}
+
+
+.footer-area {
+    display:flex;
+    justify-content:center;
+    flex-flow: column;
+    margin: 0 11%;
+    font-size: 18px;
+    /*line-height: 200%;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-horizontalborder {
+    border-bottom: 1px solid #e9e9e9;
+    margin:100px 0 40px -18px;
+}
+
+.footer-verticalborder {
+    border-right: 1px solid #e9e9e9;
+    /*margin:100px 0 40px -18px;*/
+}
+
+.footer-container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer-textcontainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.footer-textcontainer:last-child {
+    display: flex;
+    justify-content: initial;
+}
+
+.footer-textlistcontainer {
+    color: #acaaab;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.footer-textlistbox {
+    margin:10px;
+}
+
+.footer-textlistbox img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.footer-transparentpricecontainer {
+    text-align: right;
+    color: #acaaab;
+    font-size: 18px;
+}
+
+.footer-transparentpricecontainer:last-child {
+    margin-top: 100px;
+}
